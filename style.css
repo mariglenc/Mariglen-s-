@@ -1,0 +1,107 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    position: relative;
+    background-color: #01101d !important;
+}
+
+.navbar{
+    background-color: #01101d;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #01101d;
+}
+
+/* intro */
+.intro {
+    overflow: hidden;
+}
+
+/* intro left */
+.intro-left-text{
+    font-size: 22px;
+}
+
+.intro-left-text h2 span:first-child {
+    font-size: 40px;
+}
+
+.intro-left-text h2 span:nth-child(3){
+    color: rgb(0,247,255);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.intro-left-text h2 span:nth-child(5){
+    font-size: 15px;
+}
+
+.intro-left-text h2 span:last-child,.skills{
+    font-size: 22px;
+    color: rgb(255,251,0);
+}
+.left-p-1{
+    font-size: 18px;
+}
+.left-p-2{
+    font-size: 13px;
+}
+
+.social {
+    position: relative;
+    display: flex;
+}
+.social a{
+    text-decoration: none !important;
+}
+.social i {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    color: #01101d;
+    background-color: #fff;
+    border: 1px solid #01101d;
+    border-radius: 50%;
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.social i:hover{
+    color:#fff;
+    background-color: #01101d;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+
+.left-btn{
+    color: rgb(0,247,255);
+    font-size: 20px;
+    border: 1px solid rgb(0,247,255);
+    border-radius: 35px;
+}
+
+.left-btn:hover{
+    color: #01101d;
+    background-origin: #fff;
+    border: 1px solid #01101d;
+    filter: drop-shadow(0 0 0.75rem rgb(0,247,255));
+    transition: 1s;
+    z-index: -1;
+}
+
+/* intro - right */
+.intro-right-items img {
+    filter:drop-shadow(0 0 0.75rem rgb(0,247,255));
+}
+
+#contactInfo{
+    display: flex;
+    justify-content: space-around;
+}
